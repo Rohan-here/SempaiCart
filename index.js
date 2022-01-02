@@ -26,5 +26,6 @@ app.use('/api/carts', cartRoute);
 app.use('/api/orders', orderRoute);
 app.use('/api/checkout', stripeRoute);
 
+const port = process.env.PORT;
 
-app.listen(5000, () => console.log("Listening on 5000"));
+app.listen(port, () => console.log("Listening on " + port));
