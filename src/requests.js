@@ -1,7 +1,9 @@
 import axios from "axios";
 
 const BASE_URL = process.env.REACT_APP_BACKEND_URL;
-const TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxYjVlNDkwODNjYzcwNmUyYzAzNjFjNCIsImlzQWRtaW4iOmZhbHNlLCJpYXQiOjE2NDAyNTE2NzAsImV4cCI6MTY0MDUxMDg3MH0.gEDMat0DPhrE5PdlNjeNABn7vO0kIfYfNNdu54fAMJM"
+const user = JSON.parse(localStorage.getItem("persist:root"))?.user;
+const currentUser = user && JSON.parse(user).currentUser;
+const TOKEN = currentUser?.accessToken;
 
 export const publicRequest = axios.create({
     baseURL: BASE_URL,
