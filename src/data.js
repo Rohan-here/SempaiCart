@@ -1,43 +1,43 @@
 export const sliderItems = [{
         id: 1,
-        img: "https://i.ibb.co/XsdmR2c/1.png",
-        title: "SUMMER SALE",
-        desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+        img: "https://firebasestorage.googleapis.com/v0/b/sempaicart.appspot.com/o/SliderImages%2Fkindpng_1671788.png?alt=media&token=b6923a90-b8bd-4756-ba92-3cfcac6e7cac",
+        title: "NEW ARRIVAL SALE",
+        desc: "DON'T COMPROMISE ON STYLE! GET NEWEST MERCH.",
         bg: "f5fafd",
     },
     {
         id: 2,
-        img: "https://i.ibb.co/DG69bQ4/2.png",
-        title: "AUTUMN COLLECTION",
-        desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+        img: "https://firebasestorage.googleapis.com/v0/b/sempaicart.appspot.com/o/SliderImages%2Fkindpng_319528.png?alt=media&token=2c91168c-9b21-42b9-8637-d6e1a235e574",
+        title: "ANIME COLLECTION",
+        desc: "ONE STOP ANIME STORE FOR COLLECTIBLES AND CLOTHING",
         bg: "fcf1ed",
     },
     {
         id: 3,
-        img: "https://i.ibb.co/cXFnLLV/3.png",
-        title: "LOUNGEWEAR LOVE",
-        desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+        img: "https://firebasestorage.googleapis.com/v0/b/sempaicart.appspot.com/o/SliderImages%2Fkindpng_636675.png?alt=media&token=ca410fd2-3353-4c9a-b449-8e14882fba23",
+        title: "PLUSHIE LOVE",
+        desc: "LATEST AND CUTEST CHARACTERS. AYE SIR !",
         bg: "fbf0f4",
     },
 ];
 
 export const categories = [{
         id: 1,
-        img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        title: "SHIRT STYLE!",
-        cat: "woman"
+        img: "https://firebasestorage.googleapis.com/v0/b/sempaicart.appspot.com/o/CategoryImages%2Fd2iesjt-b3fdf539-b6bc-4304-bc0b-3c7605922899.jpg?alt=media&token=27b52ea8-9adc-4ff3-90ba-f0025ec057da",
+        title: "ANIME!",
+        cat: "anime"
     },
     {
         id: 2,
-        img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        title: "LOUNGEWEAR LOVE",
-        cat: "coat"
+        img: "https://firebasestorage.googleapis.com/v0/b/sempaicart.appspot.com/o/CategoryImages%2Fdownload.jpeg?alt=media&token=6281ed98-e0f4-4d71-9a7e-c1d878495b68",
+        title: "CARTOONS",
+        cat: "cartoon"
     },
     {
         id: 3,
-        img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-        title: "LIGHT JACKETS",
-        cat: "jeans"
+        img: "https://firebasestorage.googleapis.com/v0/b/sempaicart.appspot.com/o/CategoryImages%2FWhatsApp%20Image%202022-01-02%20at%2014.42.36.jpeg?alt=media&token=cf6f9356-00c5-43d6-9eae-fe78edd3672e",
+        title: "K-POP!",
+        cat: "kpop"
     },
 ];
 

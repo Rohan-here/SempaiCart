@@ -87,11 +87,13 @@ const Footer = () => {
     return (
         <Container>
             <Left>
-                <Logo>LAMA.</Logo>
+                <Logo>SempaiCart</Logo>
                 <Desc>
-                    There are many variations of passages of Lorem Ipsum available, but
-                    the majority have suffered alteration in some form, by injected
-                    humour, or randomised words which don’t look even slightly believable.
+                    I dont have a description to write so i will repeat this line 5 times
+                    I dont have a description to write so i will repeat this line 5 times
+                    I dont have a description to write so i will repeat this line 5 times
+                    I dont have a description to write so i will repeat this line 5 times
+                    I dont have a description to write so i will repeat this line 5 times 
                 </Desc>
                 <SocialContainer>
                     <SocialIcon color="3B5999">
@@ -126,13 +128,13 @@ const Footer = () => {
             <Right>
                 <Title>Contact</Title>
                 <ContactItem>
-                    <Room style={{ marginRight: "10px" }} /> 622 Dixie Path , South Tobinchester 98336
+                    <Room style={{ marginRight: "10px" }} /> Laxmi Nagar,New Delhi
                 </ContactItem>
                 <ContactItem>
-                    <Phone style={{ marginRight: "10px" }} /> +1 234 56 78
+                    <Phone style={{ marginRight: "10px" }} /> +91 9650324051
                 </ContactItem>
                 <ContactItem>
-                    <MailOutline style={{ marginRight: "10px" }} /> contact@lama.dev
+                    <MailOutline style={{ marginRight: "10px" }} /> guptarohan2002@gmail.com
                 </ContactItem>
                 <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
             </Right>

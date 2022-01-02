@@ -1,4 +1,3 @@
-import { AccessTimeTwoTone } from "@material-ui/icons";
 import { createSlice } from "@reduxjs/toolkit"
 
 const cartSlice = createSlice({

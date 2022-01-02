@@ -10,7 +10,7 @@ const Container = styled.div`
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url("https://images.pexels.com/photos/6984650/pexels-photo-6984650.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+    url("https://firebasestorage.googleapis.com/v0/b/sempaicart.appspot.com/o/PagesBackground%2Faesthetic-anime-01.jpg?alt=media&token=a085291b-6812-48ad-b267-22d5d8d9dce8")
       center;
   background-size: cover;
   display: flex;
