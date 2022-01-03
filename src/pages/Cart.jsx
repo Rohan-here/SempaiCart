@@ -227,7 +227,7 @@ const Cart = () => {
                                     <ProductAmount>{product.quantity}</ProductAmount>
                                     <Remove />
                                 </ProductAmountContainer>
-                                <ProductPrice>$ {product.price * product.quantity}</ProductPrice>
+                                <ProductPrice>Rs. {product.price * product.quantity}</ProductPrice>
                             </PriceDetail>
                         </Product>
                             <Hr />
@@ -239,26 +239,26 @@ const Cart = () => {
                         <SummaryTitle>ORDER SUMMARY</SummaryTitle>
                         <SummaryItem>
                             <SummaryItemText>Subtotal</SummaryItemText>
-                            <SummaryItemPrice>$ {cart.total}</SummaryItemPrice>
+                            <SummaryItemPrice>Rs. {cart.total}</SummaryItemPrice>
                         </SummaryItem>
                         <SummaryItem>
                             <SummaryItemText>Estimated Shipping</SummaryItemText>
-                            <SummaryItemPrice>$ </SummaryItemPrice>
+                            <SummaryItemPrice>Rs. 0</SummaryItemPrice>
                         </SummaryItem>
                         <SummaryItem>
                             <SummaryItemText>Shipping Discount</SummaryItemText>
-                            <SummaryItemPrice>$ -5.90</SummaryItemPrice>
+                            <SummaryItemPrice>Rs. 0</SummaryItemPrice>
                         </SummaryItem>
                         <SummaryItem type="total">
                             <SummaryItemText>Total</SummaryItemText>
-                            <SummaryItemPrice>$ {cart.total}</SummaryItemPrice>
+                            <SummaryItemPrice>Rs. {cart.total}</SummaryItemPrice>
                         </SummaryItem>
                         <StripeCheckout
                           name="SempaiCart"
                           image = ""
                           billingAddress
                           shippingAddress
-                          description={`Your total is $${cart.total}`}
+                          description={`Your total is Rs.${cart.total}`}
                           amount={cart.total * 100}
                           token={onToken}
                           stripeKey={KEY}

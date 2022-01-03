@@ -54,7 +54,7 @@ const Products = ({cat,filters,sort}) => {
             )
         }
     },[sort])
-
+    console.log(products);
     return (
         <Container>
             {cat ? filteredProducts.map((item) => (

@@ -51,12 +51,12 @@ const ProductList = () => {
           [e.target.name] : value
         })
     }
-
+    console.log(sort,filter);
     return (
         <Container>
             <Navbar />
             <Announcement />
-            <Title>{cat}</Title>
+            <Title>{cat.toUpperCase()}</Title>
             <FilterContainer>
                 <Filter>
                     <FilterText>Filter Products:</FilterText>
