@@ -56,7 +56,7 @@ const Products = ({cat,filters,sort}) => {
     },[sort])
     console.log(products);
     return (
-        <Container>
+        <Container id="prods">
             {cat ? filteredProducts.map((item) => (
                 <ProductItem item={item} key={item.id} />
             ))  : 
